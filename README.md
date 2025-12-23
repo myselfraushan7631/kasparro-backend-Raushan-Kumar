@@ -39,3 +39,8 @@ docker compose up --build
 🧪 Run Tests
 docker compose exec api pytest -v
 
+Backend Structure
+
+<img width="395" height="737" alt="image" src="https://github.com/user-attachments/assets/8a972409-2c09-408e-a5cf-d774c0f721ba" />
+
+

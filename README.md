@@ -1,4 +1,4 @@
-[6:03 PM, 12/23/2025] Raushan Kumar: Backend ETL System – Crypto Data Ingestion
+Backend ETL System – Crypto Data Ingestion
 This project is a Dockerized backend ETL system that ingests cryptocurrency data from public APIs and exposes it via REST endpoints. It is built to demonstrate clean backend architecture, API integration, ETL pipelines, and containerized deployment.
 
 🚀 Features
@@ -15,12 +15,6 @@ PostgreSQL
 SQLAlchemy
 Docker & Docker Compose
 Pytest
-backend-etl/ ├── api/ # FastAPI routes & app ├── core/ # Config, database, models ├── ingestion/ # ETL logic…
-[6:27 PM, 12/23/2025] Raushan Kumar: https://github.com/myselfraushan7631/kasparro-backend-Raushan-Kumar/tree/main
-[6:46 PM, 12/23/2025] Raushan Kumar: iamraushan7542@oksbi
-[10:15 PM, 12/23/2025] Raushan Kumar: ## Backend & ETL System
-Backend ETL System – Crypto Data Ingestion
-This project is a Dockerized backend ETL system that ingests cryptocurrency data from public APIs and exposes it via REST endpoints. It is built to demonstrate clean backend architecture, API integration, ETL pipelines, and containerized deployment.
 
 🚀 Features
 Fetches crypto market data from CoinGecko (free, no API key)

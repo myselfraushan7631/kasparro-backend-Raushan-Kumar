@@ -5,6 +5,7 @@ from core.database import engine
 from core.models import Base
 
 app = FastAPI()
+
 Base.metadata.create_all(bind=engine)
 
 app.include_router(router)

@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     DATABASE_URL: str
-    API_KEY: str
+    COINPAPRIKA_API_KEY: str | None = None
 
     class Config:
         env_file = ".env"

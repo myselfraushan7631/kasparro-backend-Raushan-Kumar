@@ -1,7 +1,8 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from core.database import SessionLocal
-from core.models import NormalizedData, ETLRun
+from core.models import NormalizedCryptoPrice, ETLRun
+
 
 router = APIRouter()
 

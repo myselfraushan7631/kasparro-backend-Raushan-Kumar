@@ -1,7 +1,7 @@
 ## Backend & ETL System
 
 Run:
-make up
+docker compose up --build
 
 API:
 GET /data
